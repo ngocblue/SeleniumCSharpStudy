@@ -18,9 +18,7 @@ namespace SeleniumCSharp_NetCore
         public void Test1()
         {
             Driver.Navigate().GoToUrl("https://demowf.aspnetawesome.com/");
-
             CustomControl.ComboBox("ContentPlaceHolder1_AllMealsCombo", "Almond");
-
             Assert.Pass();
         }
     }
